@@ -1,0 +1,32 @@
+esp_toml_version = 1.0
+
+firmware_images_url = "https://ustccw.github.io/factory/"
+
+supported_apps = ["ESP-AT-v3.0.0.0", "ESP-AT-v2.4.2.0", "ESP-AT-v2.4.0.0", "ESP-AT-v2.2.1.0", "ESP-AT-v2.1.0.0"]
+
+[ESP-AT-v3.0.0.0]
+chipsets = ["ESP32-C2-2MB", "ESP32-C2-4MB"]
+image.esp32-c2-2mb = "esp32c2_2mb_v3.0.0.0.bin"
+image.esp32-c2-4mb = "esp32c2_4mb_v3.0.0.0.bin"
+
+[ESP-AT-v2.4.2.0]
+chipsets = ["ESP32-C3-MINI-1"]
+image.esp32-c3-mini-1 = "esp32c3_mini_1_v2.4.2.0.bin"
+
+[ESP-AT-v2.4.0.0]
+chipsets = ["ESP32-MINI-1", "ESP32-PICO-D4", "ESP32-WROOM-32", "ESP32-WROVER"]
+image.esp32-mini-1 = "esp32_mini_1_v2.4.0.0.bin"
+image.esp32-pico-d4 = "esp32_pico_d4_v2.4.0.0.bin"
+image.esp32-wroom-32 = "esp32_wroom_32_v2.4.0.0.bin"
+image.esp32-wrover = "esp32_wrover_v2.4.0.0.bin"
+
+[ESP-AT-v2.2.1.0]
+chipsets = ["ESP-WROOM-02"]
+image.esp-wroom-02 = "esp8266_wroom_02_v2.2.1.0.bin"
+
+[ESP-AT-v2.1.0.0]
+chipsets = ["ESP32-S2-MINI", "ESP32-S2-SOLO", "ESP32-S2-WROOM", "ESP32-S2-WROVER"]
+image.esp32-s2-mini = "esp32s2_mini_v2.1.0.0.bin"
+image.esp32-s2-solo = "esp32s2_solo_v2.1.0.0.bin"
+image.esp32-s2-wroom = "esp32s2_wroom_v2.1.0.0.bin"
+image.esp32-s2-wrover = "esp32s2_wrover_v2.1.0.0.bin"
