@@ -1,6 +1,6 @@
 esp_toml_version = 1.0
 
-firmware_images_url = "https://ustccw.github.io/factory/"
+firmware_images_url = "https://ustccw.github.io/factory/firmware/"
 
 supported_apps = ["ESP-AT-v3.0.0.0", "ESP-AT-v2.4.2.0", "ESP-AT-v2.4.0.0", "ESP-AT-v2.2.1.0", "ESP-AT-v2.1.0.0"]
 
